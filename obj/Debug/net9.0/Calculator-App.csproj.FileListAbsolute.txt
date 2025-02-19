@@ -95,3 +95,4 @@ C:\Users\Owner\OneDrive\Desktop\Coding\Calculator-App\obj\Debug\net9.0\refint\Ca
 C:\Users\Owner\OneDrive\Desktop\Coding\Calculator-App\obj\Debug\net9.0\Calculator-App.pdb
 C:\Users\Owner\OneDrive\Desktop\Coding\Calculator-App\obj\Debug\net9.0\Calculator-App.genruntimeconfig.cache
 C:\Users\Owner\OneDrive\Desktop\Coding\Calculator-App\obj\Debug\net9.0\ref\Calculator-App.dll
+C:\Users\Owner\OneDrive\Desktop\Coding\Calculator-App\obj\Debug\net9.0\Calculator-App.sourcelink.json
