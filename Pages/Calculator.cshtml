@@ -2,11 +2,14 @@
 @model CalculatorModel
 @{
     ViewData["Title"] = "Calculator Page";
+
+    string greeting = "Hello User!";
 }
 
 <div class="text-center">
     <h1 class="display-4">Calculator</h1>
     <p>@DateTime.Now</p>
+    <p>@greeting</p>
     <form id="result" onclick ="result.value=inputName.value+inputVal.value">
     <a>Enter a number: </a><input type="number" name="inputName" ></input><br><br>
     <a>Enter second number:</a><input type="number" name="inputVal"></input>
