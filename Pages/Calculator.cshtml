@@ -1,9 +1,15 @@
 @page
 @model CalculatorModel
 @{
+
     ViewData["Title"] = "Calculator Page";
 
     string greeting = "Hello User!";
+
+    int toInt(string val){
+       
+       return Convert.ToInt32(val);
+    }
 
 
 
@@ -36,8 +42,8 @@
         </div>
         <div class="row">
             <div class="column">
-                <input type="button" name="button4" value="4" onclick="Calculator.value=button4.value"></input>
-                <input type="button" name="button5" value="5" onclick="Calculator.value=button5.value"></input>
+                <input type="button" name="button4" value="@toInt("4")" onclick="Calculator.value=button4.value"></input>
+                <input type="button" name="button5" value="@toInt("5")" onclick="Calculator.value=button5.value"></input>
                 <input type="button" name="button6" value="6" onclick="Calculator.value=button6.value"></input>
                 <button type="button">-</button>
             </div>
