@@ -10,7 +10,6 @@
 @functions{
 
     int toInt(string val){
-       
        return Convert.ToInt32(val);
     }
 }
@@ -44,7 +43,7 @@
             <div class="column">
                 <input type="button" name="button4" value="@toInt("4")" onclick="Calculator.value=button4.value"></input>
                 <input type="button" name="button5" value="@toInt("5")" onclick="Calculator.value=button5.value"></input>
-                <input type="button" name="button6" value="6" onclick="Calculator.value=button6.value"></input>
+                <input type="button" name="button6" value="@toInt("6")" onclick="Calculator.value=button6.value"></input>
                 <button type="button">-</button>
             </div>
         </div>
