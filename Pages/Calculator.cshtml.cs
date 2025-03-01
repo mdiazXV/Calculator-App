@@ -18,8 +18,4 @@ public class CalculatorModel : PageModel
 
     }
 
-    public void getButtonVal()
-    {
-        
-    }
 }
