@@ -5,6 +5,8 @@
 
     string greeting = "Hello User!";
 
+
+
 }
 
 <div class="text-center">
@@ -17,39 +19,46 @@
     <button type="button">Enter</button><br>
     </form>
     <a>Output:</a> <output form="result" name ="result"></output>
+    <br>
+    <br>
     <div class="table">
+        <form id="Calculator" >
         <div class="title">
             <a>Calculator</a> 
         </div>
         <div class="row">
             <div class="column">
-            <input type="button" name="button7" value ="7"></input>
-            <input type="button" name="button8" value ="8"></input>
-            <input type="button" name="button9" value ="9"></input>
+            <input type="button" name="button7" value ="7" onclick="Calculator.value=button7.value"></input>
+            <input type="button" name="button8" value ="8" onclick="Calculator.value=button8.value"></input>
+            <input type="button" name="button9" value ="9" onclick="Calculator.value=button9.value"></input>
+            <button type="button">+</button>
             </div>
         </div>
-        <br>
         <div class="row">
             <div class="column">
-                <input type="button" name="button4" value="4">
-                <input type="button" name="button5" value="5">
-                <input type="button" name="button6" value="6">
+                <input type="button" name="button4" value="4" onclick="Calculator.value=button4.value"></input>
+                <input type="button" name="button5" value="5" onclick="Calculator.value=button5.value"></input>
+                <input type="button" name="button6" value="6" onclick="Calculator.value=button6.value"></input>
+                <button type="button">-</button>
             </div>
         </div>
-        <br>
         <div class="row">
             <div class="column">
-                <input type="button" name="button1" value="1">
-                <input type="button" name="button2" value="2">
-                <input type="button" name="button3" value="3">
+                <input type="button" name="button1" value="1" onclick="Calculator.value=button1.value"></input>
+                <input type="button" name="button2" value="2" onclick="Calculator.value=button2.value"></input>
+                <input type="button" name="button3" value="3" onclick="Calculator.value=button3.value"></input>
+                <button type="button">x</button>
             </div>
         </div>
-        <br>
         <div class="row">
             <div class="column">
-                <input type="button" name="button0" value="0">
+                <input type="button" name="button0" value="0" onclick="Calculator.value=button0.value"></input>
+                <button type="button">÷</button>
+                <button type="button">Enter</button>
             </div>
         </div>
+        </form>
+        <output form="Calculator" name="Calculator"></output>
         <br>
     </div>
     
