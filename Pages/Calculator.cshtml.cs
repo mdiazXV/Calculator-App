@@ -13,9 +13,18 @@ public class CalculatorModel : PageModel
         _logger = logger;
     }
 
+    public string calcResult{get; set;} = "";
+
     public void OnGet()
     {
 
     }
+
+    public async Task<IActionResult> OnPostCalc(String buttonVal)
+    {
+        //start of the function code
+    }
+
+
 
 }
