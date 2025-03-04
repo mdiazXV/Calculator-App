@@ -21,7 +21,7 @@
     <p>@DateTime.Now</p>
     <p>@greeting</p>
     <form id="result" onclick ="result.value=inputName.value+inputVal.value">
-    <a>Enter a number: </a><input type="number" name="inputName" ></input><br><br>
+    <a>Enter a number: </a><input type="number" name="inputName"></input><br><br>
     <a>Enter second number: </a><input type="number" name="inputVal"></input>
     <button type="button">Enter</button><br>
     </form>
@@ -35,9 +35,9 @@
         </div>
         <div class="row">
             <div class="column">
-            <input type="button" name="button7" value ="7" onclick="Calculator.value=button7.value"></input>
-            <input type="button" name="button8" value ="8" onclick="Calculator.value=button8.value"></input>
-            <input type="button" name="button9" value ="9" onclick="Calculator.value=button9.value"></input>
+            <input type="button" name="button7" value ="@toInt("7")" onclick="Calculator.value=button7.value"></input>
+            <input type="button" name="button8" value ="@toInt("8")" onclick="Calculator.value=button8.value"></input>
+            <input type="button" name="button9" value ="@toInt("9")" onclick="Calculator.value=button9.value"></input>
             <input type="button" name="buttonAdd" value="+"></input>
             </div>
         </div>
@@ -51,9 +51,9 @@
         </div>
         <div class="row">
             <div class="column">
-                <input type="button" name="button1" value="1" onclick="Calculator.value=button1.value"></input>
-                <input type="button" name="button2" value="2" onclick="Calculator.value=button2.value"></input>
-                <input type="button" name="button3" value="3" onclick="Calculator.value=button3.value"></input>
+                <input type="button" name="button1" value="@toInt("1")" onclick="Calculator.value=button1.value"></input>
+                <input type="button" name="button2" value="@toInt("2")" onclick="Calculator.value=button2.value"></input>
+                <input type="button" name="button3" value="@toInt("3")" onclick="Calculator.value=button3.value"></input>
                 <input type="button" name="buttonMulti" value="x"></input>
             </div>
         </div>
